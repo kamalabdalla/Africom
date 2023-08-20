@@ -29,6 +29,28 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <style>
+        .floating{
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          top: 400px;
+          right: 40px;
+          background-color: #25d366;
+          color: #fff;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 2px 2px 3px #999;
+          z-index: 100;
+       }
+        .fab-icon{
+          margin-top: 16px;
+        }
+    </style>
+ 
+
 </head>
 
 <body>
@@ -40,22 +62,24 @@
 
 
     <!-- Topbar Start -->
+   
+    <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Nungwi, Zanzibar, Tz</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+255 772 754 417</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>zanzibarafricomtours@gmail.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.tripadvisor.com/Attraction_Review-g8055401-d26183252-Reviews-Zanzibar_Africom_Tour-Zanzibar_City_Zanzibar_Island_Zanzibar_Archipelago.html"><i class="fab fa-tripadvisor fw-normal"></i></a>
+
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/Medynungwisafari?mibextid=b06tZ0"><i class="fab fa-facebook-f fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
             </div>
         </div>
@@ -63,11 +87,11 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
+    <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Africom</h1>
+                <h1 class="m-0">Africom</h1>
                 <!-- <img src="img/tour/mnemba1.jpg" width="70px" height="70px" border-radius="60%" alt=""> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -89,20 +113,20 @@
                             <a href="baraka.html" class="dropdown-item">Natural Aquarium</a>
                             <a href="pungume.html" class="dropdown-item">Pungume Snorkelling</a>
                             <a href="cave.html" class="dropdown-item">Kuza Cave</a>
+                            <a href="dhowSun.html" class="dropdown-item">Dhon Sunset Cruise</a>
+                            <a href="jozan.html" class="dropdown-item">Jozani Forest</a>
+                            <a href="holiday.html" class="dropdown-item">Zanzibar Holidays</a>
                              
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Packages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Packages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="mikum1.html" class="dropdown-item">MIKUMI NATIONAL PARK</a>
-                            <a href="holiday.html" class="dropdown-item">ZANZIBAR HOLIDAYS </a>
-                            <a href="dhowSun.html" class="dropdown-item">DHOW SUNSET CRUISE</a>
+                            <a href="mikum1.html" class="dropdown-item">Mikumi National Park</a>
                             <a href="Serengeti.html" class="dropdown-item">Serengeti & Ngorongoro Crater</a>
 
-                            <a href="trip.html" class="dropdown-item">TRIP FROM ZANZIBAR ISLAND </a>
-                            <a href="deep.html" class="dropdown-item">DEEP SEA FISHING </a>
-                            <a href="jozan.html" class="dropdown-item">JOZANI FOREST </a>
+                            <a href="trip.html" class="dropdown-item">Trip From Zanzibar Island </a>
+                            <a href="deep.html" class="dropdown-item">Deep Sea Fishing</a>
                         </div>
                     </div>
                     <a href="transfer.html" class="nav-item nav-link">Transfer</a>
@@ -152,7 +176,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
-                <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
+                <h1 class="mb-0">If You Have Any Query, Tell Us</h1>
             </div>
             <div class="row g-5 mb-5">
                 <div class="col-lg-4">
@@ -162,7 +186,9 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h4 class="text-primary mb-0">+255 772 754 417</h4>
+                            
+
                         </div>
                     </div>
                 </div>
@@ -172,8 +198,8 @@
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Email to get free quote</h5>
-                            <h4 class="text-primary mb-0">info@example.com</h4>
+                            <h5 class="mb-2">Email</h5>
+                            <h4 class="text-primary mb-0">zanzibarafricomtours@gmail.com</h4>
                         </div>
                     </div>
                 </div>
@@ -184,26 +210,26 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Visit our office</h5>
-                            <h4 class="text-primary mb-0">123 Street, NY, USA</h4>
+                            <h4 class="text-primary mb-0">Nungwi, Zanzibar, Tz</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form action="https://formsubmit.co/5fe9c9a8414ae727b9e6905f42cced9a" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input name="name" type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input name="email" type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
                                 <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea name="Message" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
@@ -213,7 +239,7 @@
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
                     <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7939.8189579561995!2d39.29288554115454!3d-5.726177677023449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18431e47dd2f981b%3A0x8e4004c205e46cb2!2sNungwi!5e0!3m2!1sen!2stz!4v1692520790383!5m2!1sen!2stz"
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
@@ -222,17 +248,20 @@
     </div>
     <!-- Contact End -->
  
+    <a href="https://api.whatsapp.com/send?phone=255 772 754 417&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="floating" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+        </a>
 
-    <!-- Footer Start -->
+             <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Startup</h1>
+                            <h1 class="m-0 text-white">Africom</h1>
                         </a>
-                        <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
+                        <!-- <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p> -->
                         <form action="">
                             <div class="input-group">
                                 <input type="text" class="form-control border-white p-3" placeholder="Your Email">
@@ -249,21 +278,22 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">123 Street, New York, USA</p>
+                                <p class="mb-0">Nungwi, Zanzibar, Tz</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">info@example.com</p>
+                                <p class="mb-0">zanzibarafricomtours@gmail.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
+                                <p class="mb-0">+255 772 754 417</p>
                             </div>
                             <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="https://www.tripadvisor.com/Attraction_Review-g8055401-d26183252-Reviews-Zanzibar_Africom_Tour-Zanzibar_City_Zanzibar_Island_Zanzibar_Archipelago.html"><i class="fab fa-tripadvisor fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -271,12 +301,11 @@
                                 <h3 class="text-light mb-0">Quick Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="town.html"><i class="bi bi-arrow-right text-primary me-2"></i>Zanzibar Town</a>
+                                <a class="text-light mb-2" href="holiday.html"><i class="bi bi-arrow-right text-primary me-2"></i>Holidays</a>
+                                <a class="text-light mb-2" href="transfer.html"><i class="bi bi-arrow-right text-primary me-2"></i>Transfer</a>
+                                <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -284,12 +313,11 @@
                                 <h3 class="text-light mb-0">Popular Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="mikum1.html"><i class="bi bi-arrow-right text-primary me-2"></i>National Park</a>
+                                <a class="text-light mb-2" href="spice.html"><i class="bi bi-arrow-right text-primary me-2"></i>Spice Tour</a>
+                                <a class="text-light mb-2" href="baraka.html"><i class="bi bi-arrow-right text-primary me-2"></i>Natural Aquariums</a>
+                                <a class="text-light mb-2" href="safarblue.html"><i class="bi bi-arrow-right text-primary me-2"></i>Safar Blue</a>
+                                <a class="text-light mb-2" href="trip.html"><i class="bi bi-arrow-right text-primary me-2"></i>Trips</a>
                             </div>
                         </div>
                     </div>
@@ -302,10 +330,9 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved. 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Africom Tour</a>. All Rights Reserved. 
 						
-						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-						Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+						Designed by <a class="text-white border-bottom" href="#">Mr_'A</a></p>
                     </div>
                 </div>
             </div>
